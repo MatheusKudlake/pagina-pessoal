@@ -7,13 +7,15 @@
 
 body{
     font-family: "Montserrat";
-    background-color: #717d89;
+    background-color: rgb(255, 255, 255);
 }
 
 #titulo{
-    background-color: #004BA8;
+    /*background-color: #161D6F;*/
+    background: linear-gradient(to bottom, #0B2F9F, #161D6F);
     text-align:center;
     padding:1%;
+    color:white;
 }
 
 p{
@@ -30,22 +32,45 @@ a:hover{
 }
 
 #nav{
-    background-color: #3E78B2;
+    background-color: #0B2F9F;
     list-style-type: none;
-    display:flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     padding:0.5%;
+    color:white;
 }
 
 .container{
     display:flex;
-    flex-direction: column;
     flex-wrap: warp;
 }
 
 .item{
     text-align:center;
-    border:dotted;
-    padding:0.5%;
+    
+    padding:2%;
+}
+
+#corpo{
+    flex-direction: column;
+}
+
+#contatos{
+    text-align: center;
+    border:none;
+    padding:1%;
+    background: linear-gradient(to top, #161D6F, #0B2F9F);
+    color:white;
+}
+
+#sobre, #experiencia{
+    background: linear-gradient(to left, #6cbdb8, #C7FFD8);
+}
+
+#formacao, #objetivos{
+    background: linear-gradient(to right, #6cbdb8, #C7FFD8);
+}
+
+i{
+    font-size: 150%;
+    margin-top: 150%;
 }
