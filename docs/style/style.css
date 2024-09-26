@@ -16,11 +16,7 @@ body{
     color:white;
 }
 
-header{
-    font-size: 130%;
-}
-
-nav{
+header, nav{
     font-size: 130%;
 }
 
@@ -29,16 +25,13 @@ h2{
 }
 
 p{
-    text-align: justify;
-    font-size:130%;
-    margin:2%;
+    font-size:150%;
 }
 
 a{
-    color: inherit;
+    color: white;
     text-decoration: none;
 }
-
 
 #nav{
     background-color: #0B2F9F;
@@ -83,7 +76,7 @@ li{
 
 #sobre img{
     float: left;
-    padding: 0.25%;
+    padding: 1%;
     border-radius:7%;
     border:solid;
     border-color:#0B2F9F;
@@ -92,7 +85,7 @@ li{
 }
 
 #sobre p{
-    font-size:160%;
+    font-size:170%;
 }
 
 #formacao, #habilidades{
@@ -134,5 +127,5 @@ i{
 }
 
 #sobre_cont p{
-    margin-top: 10%;
+    margin-top: 15%;
 }
