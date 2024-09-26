@@ -30,8 +30,8 @@ h2{
 
 p{
     text-align: justify;
-    font-size:150%;
-    margin:2%
+    font-size:130%;
+    margin:2%;
 }
 
 a{
@@ -75,7 +75,7 @@ li{
     flex-direction: column;
 }
 
-#sobre, #experiencia{
+#sobre, #experiencia, #objetivos{
     background: linear-gradient(to left, #6cbdb8, #C7FFD8);
 }
 
@@ -93,7 +93,7 @@ li{
     margin-top:8%
 }
 
-#formacao, #objetivos{
+#formacao, #habilidades{
     background: linear-gradient(to right, #6cbdb8, #C7FFD8);
 }
 
@@ -113,7 +113,7 @@ li{
     margin-left:2%;
 }
 
-#objetivos p{
+#objetivos p, #habilidades p{
     text-align:center;
 }
 
