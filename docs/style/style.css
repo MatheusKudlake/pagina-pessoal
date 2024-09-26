@@ -76,6 +76,7 @@ li{
     margin-bottom: 2%;
 }
 
+
 #sobre, #experiencia, #objetivos{
     background: linear-gradient(to left, #6cbdb8, #C7FFD8);
 }
@@ -139,7 +140,7 @@ i{
 }
 
 #sobre_cont img{
-    max-width:500px;
+    max-width:480px;
 }
 
 #sobre_cont p{
