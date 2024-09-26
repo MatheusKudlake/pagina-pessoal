@@ -16,11 +16,7 @@ body{
     color:white;
 }
 
-header{
-    font-size: 150%;
-}
-
-nav{
+header, nav{
     font-size: 130%;
 }
 
@@ -29,16 +25,13 @@ h2{
 }
 
 p{
-    text-align: justify;
-    font-size:130%;
-    margin:2%;
+    font-size:150%;
 }
 
 a{
-    color: inherit;
+    color: white;
     text-decoration: none;
 }
-
 
 #nav{
     background-color: #0B2F9F;
@@ -60,6 +53,11 @@ li{
 .container{
     display:flex;
     flex-wrap: wrap;
+    margin:auto;
+}
+
+#corpo{
+    flex-direction: column;
 }
 
 .item{
@@ -71,9 +69,6 @@ li{
     margin-bottom: 2%;
 }
 
-#corpo{
-    flex-direction: column;
-}
 
 #sobre, #experiencia, #objetivos{
     background: linear-gradient(to left, #6cbdb8, #C7FFD8);
@@ -81,39 +76,23 @@ li{
 
 #sobre img{
     float: left;
-    margin-right: 3%;
-    margin-left:2%;
-    padding: 0.25%;
+    padding: 1%;
     border-radius:7%;
     border:solid;
     border-color:#0B2F9F;
+    box-shadow: 1px 1px 10px #0B2F9F;
+    max-width:620px
 }
 
 #sobre p{
-    margin-top:8%
+    font-size:170%;
 }
 
 #formacao, #habilidades{
     background: linear-gradient(to right, #6cbdb8, #C7FFD8);
 }
 
-#formacao img{
-    float: right;
-    margin-right: 3%;
-    margin-left:2%;
-}
-
-#formacao p{
-    margin-top:4%
-}
-
-#experiencia img{
-    float:left;
-    margin-right: 3%;
-    margin-left:2%;
-}
-
-#objetivos p, #habilidades p{
+#objetivos p, #habilidades p, #experiencia p, #formacao p{
     text-align:center;
 }
 
@@ -137,4 +116,16 @@ li{
 i{
     font-size: 150%;
     margin-top: 150%;
+}
+
+#sobre_cont{
+    justify-content: center;
+}
+
+#sobre_cont img{
+    max-width:500px;
+}
+
+#sobre_cont p{
+    margin-top: 15%;
 }
