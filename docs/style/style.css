@@ -82,19 +82,16 @@ li{
 
 #sobre img{
     float: left;
-    margin-right: 3%;
-    margin-left:20%;
     padding: 0.25%;
     border-radius:7%;
     border:solid;
     border-color:#0B2F9F;
     box-shadow: 1px 1px 10px #0B2F9F;
-    min-width:200px;
+    max-width:620px
 }
 
 #sobre p{
-    margin-bottom:45%;
-    font-size:160%
+    font-size:160%;
 }
 
 #formacao, #habilidades{
@@ -142,3 +139,24 @@ i{
     font-size: 150%;
     margin-top: 150%;
 }
+
+#sobre_cont{
+    justify-content: center;
+}
+
+#sobre_cont img{
+    max-width:520px;
+}
+
+#sobre_cont p{
+    margin-top: 10%;
+}
+
+#formacao-cont{
+    justify-content: space-between;
+}
+
+#formacao_txt{
+    max-width:70%
+}
+
