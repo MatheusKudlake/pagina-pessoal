@@ -99,17 +99,7 @@ li{
     background: linear-gradient(to right, #6cbdb8, #C7FFD8);
 }
 
-#formacao img{
-    float: right;
-    margin-right: 3%;
-    margin-left:2%;
-}
-
-#formacao p{
-    margin-top:4%
-}
-
-#objetivos p, #habilidades p, #experiencia p{
+#objetivos p, #habilidades p, #experiencia p, #formacao p{
     text-align:center;
 }
 
@@ -140,17 +130,9 @@ i{
 }
 
 #sobre_cont img{
-    max-width:480px;
+    max-width:500px;
 }
 
 #sobre_cont p{
     margin-top: 10%;
-}
-
-#formacao-cont{
-    justify-content: space-between;
-}
-
-#formacao_txt{
-    max-width:70%
 }
